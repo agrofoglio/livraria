@@ -1,6 +1,6 @@
 const http = require("http");
 const sqlite3 = require("sqlite3").verbose();
-const db = new  sqlite3.Database("/tmp/livros.db", (err)=>{
+const db = new  sqlite3.Database("./livros.db", (err)=>{
     if(err){
         console.error(err);
     }else{
