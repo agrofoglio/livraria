@@ -20,6 +20,7 @@ Retorne ao diretório livraria e execute os seguintes comandos:
 
  diretório src/backend execute nesta ordem:
 ### `npm init -y`
+### `npm install`
 ### `npm start`
 
 Você pode acessar o app de gerenciamento de livros utilizando qualquer navegador pelo endereço:
