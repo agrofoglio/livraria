@@ -1,0 +1,86 @@
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 64px 0;
+  gap: 64px;
+  opacity: 1; /* Corrigido para 1 */
+}
+
+.top-container {
+  width: 100%;
+  height: auto;
+  gap: 24px;
+  opacity: 1; /* Corrigido para 1 */
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  opacity: 1; /* Corrigido para 1 */
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 800px;
+  height: 54px;
+  padding: 17px 16px;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.add-book-button {
+  padding: 17px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 16px;
+  background-color: #E0E0E2;
+  color: #111111;
+}
+
+.book-list {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Apenas 2 colunas */
+  gap: 48px;
+  opacity: 1; /* Corrigido para 1 */
+}
+
+.livro-item {
+  width: 300px;
+  height: 480px;
+  gap: 0;
+  border-radius: 16px;
+  opacity: 1; /* Corrigido para 1 */
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+  padding: 16px 0 0 0;
+  background: #E0E0E2;
+}
+
+.livro-imagem {
+  width: 60%;
+  height: 212px;
+  object-fit: cover;
+}
+
+.text-container {
+  width: 100%;
+  height: auto;
+  padding: 16px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
